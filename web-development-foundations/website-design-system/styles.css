@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Ubuntu&display=swap');
+
+body {
+    margin: 0 10%;
+}
+
+.container {
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    min-height: 100px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.dark-magenta {
+    background-color: darkmagenta;
+    color: white;
+}
+
+.gold {
+    background-color: gold;
+}
+
+.olive-drab {
+    background-color: olivedrab;
+    color: white;
+}
+
+.font-panel {
+    width: 45%;
+    display: inline-block;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.crimson-text {
+    font-family: 'Crimson Text', serif;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: Ubuntu, sans-serif;
+}
+
+.text-panel p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Crimson Text', serif;
+}
