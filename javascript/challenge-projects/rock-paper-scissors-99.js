@@ -151,11 +151,11 @@ function randomMove() {
 }
 
 function setComputerMoves() {
-    playerTwoMoveOneType = randomMove();
-    playerTwoMoveTwoType = randomMove();
-    playerTwoMoveThreeType = randomMove();
-
-    playerTwoMoveOneValue = Math.floor(Math.random() * 97) + 1; 
-    playerTwoMoveTwoValue = Math.floor(Math.random() * (98 - playerTwoMoveOneValue)) + 1;
-    playerTwoMoveThreeValue = 99 - playerTwoMoveOneValue - playerTwoMoveTwoValue;
+    let moveOneType = randomMove();
+    let moveTwoType = randomMove();
+    let moveThreeType = randomMove();
+    let moveOneValue = Math.floor(Math.random() * 97) + 1; 
+    let moveTwoValue = Math.floor(Math.random() * (98 - moveOneValue)) + 1;
+    let moveThreeValue = 99 - moveOneValue - moveTwoValue;
+    setPlayerMoves('Player Two', moveOneType, moveOneValue, moveTwoType, moveTwoValue, moveThreeType, moveThreeValue);
 }
